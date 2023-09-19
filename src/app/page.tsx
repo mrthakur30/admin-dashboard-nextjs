@@ -64,9 +64,9 @@ export default function Home() {
 
       <div className="md:my-0 my-16 md:mx-0 mx-8">
 
-        <div className="md:h-screen flex  justify-stretch  md:mr-44 items-center">
+        <div className="md:h-screen flex  justify-stretch  md:mr-48 items-center">
 
-          <div className="flex-col flex gap-2 ">
+          <div className="flex-col flex gap-2 w-96 ">
             <h1 className="text-3xl font-semibold">Sign In</h1>
             <span>Sign in to your account</span>
 
@@ -91,9 +91,9 @@ export default function Home() {
               <div >
                 <form className="flex justify-center gap-3 rounded-md py-8 px-5 bg-white  flex-col ">
                   <span>Email address</span>
-                  <input className=" bg-slate-300 px-4 py-2 mt-2  rounded-lg" type="text" name="email" id="email" placeholder="Email" />
+                  <input className=" bg-slate-200 px-4 py-2 mt-2  rounded-lg" type="text" name="email" id="email" placeholder="Email" />
                   <span>Password</span>
-                  <input className=" bg-slate-300 px-4 py-2 mt-2  rounded-lg" type="text" name="password" id="password" placeholder="Password" />
+                  <input className=" bg-slate-200 px-4 py-2 mt-2  rounded-lg" type="text" name="password" id="password" placeholder="Password" />
                   <h3 className='text-blue-500 my-2'>Forgot Password?</h3>
                   <button className=" text-white bg-blue-500 font-semibold rounded-lg py-3">Sign In</button>
                 </form>
