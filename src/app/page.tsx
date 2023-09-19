@@ -71,7 +71,7 @@ export default function Home() {
             <span>Sign in to your account</span>
 
             <div className="flex-col flex gap-5 ">
-              <div className="flex py-2 gap-5 flex-row">
+              <div className="flex py-2 gap-5 justify-between flex-row">
                 <GoogleLogin />
                 <button className="flex  justify-center items-center gap-3 bg-white px-3 py-1 rounded-md" >
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16" fill="none">
