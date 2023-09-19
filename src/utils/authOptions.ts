@@ -9,6 +9,7 @@ export const authOptions = {
         clientSecret: "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"
       })
     ],
+    secret: process.env.NEXT_PUBLIC_SECRET 
     
   }
   
